@@ -113,11 +113,12 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ytbdlss='youtube-dl --proxy socks5://127.0.0.1:7891'
 alias update='bash ~/.Script/update.sh'
 alias ytbmusic='ytbdlss -f 140'
 alias vim='nvim'
 alias vi='nvim'
-alias configvim='vim ~/.config/nvim/init.vim'
+alias vimconfig='vim ~/.config/nvim/init.vim'
+alias typora='open -a typora'
