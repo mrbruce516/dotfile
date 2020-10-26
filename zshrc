@@ -8,16 +8,7 @@ export ZSH="/Users/bruce/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
-# 支持更多超多个性化字符
-POWERLEVEL9K_MODE='nerdfont-complete'
-# 新的一行输入命令
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
-# 自定义左边的样式
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable vcs)
-# 自定义右边的样式
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs time)
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -85,8 +76,6 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     )
-
-eval $(thefuck --alias)
 
 source $ZSH/oh-my-zsh.sh
 

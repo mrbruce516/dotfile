@@ -1,0 +1,5 @@
+Host vultr
+HostName 108.61.204.126
+Port 2233
+User bruce
+IdentitiesOnly yes

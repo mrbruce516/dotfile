@@ -120,12 +120,12 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
 Plug 'joshdick/onedark.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'mhinz/vim-startify'
 Plug 'majutsushi/tagbar'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -164,13 +164,13 @@ map ff :Tagbar<CR>
 " === 自动补全插件
 " ===
 
-let g:coc_global_extensions = [
-    \ 'coc-marketplace',
-    \ 'coc-jedi',
-    \ 'coc-json',
-    \ 'coc-markdownlint',
-    \ 'coc-sh'
-    \ ]
+"let g:coc_global_extensions = [
+"    \ 'coc-marketplace',
+"    \ 'coc-jedi',
+"    \ 'coc-json',
+"    \ 'coc-markdownlint',
+"    \ 'coc-sh'
+"    \ ]
 
 " 用tab选择补全候选
 inoremap <silent><expr> <TAB>
