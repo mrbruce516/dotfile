@@ -169,7 +169,6 @@ let g:coc_global_extensions = [
     \ 'coc-marketplace',
     \ 'coc-jedi',
     \ 'coc-json',
-    \ 'coc-markdownlint',
     \ 'coc-sh'
     \ ]
 
