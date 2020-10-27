@@ -69,7 +69,6 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    osx
     git
     z
     sudo
@@ -104,10 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ytbdlss='youtube-dl --proxy socks5://127.0.0.1:7891'
-alias update='bash ~/.Script/update.sh'
-alias ytbmusic='ytbdlss -f 140'
+alias update='source ~/.dotfile/update.sh'
 alias vim='nvim'
 alias vi='nvim'
 alias vimconfig='vim ~/.config/nvim/init.vim'
-alias typora='open -a typora'
