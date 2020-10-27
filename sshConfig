@@ -1,11 +1,83 @@
+# vultr 虚拟机
 Host vultr
 HostName 108.61.204.126
 Port 2233
 User bruce
 IdentitiesOnly yes
 
+# 阿里云ECS
 Host aliyun
 HostName 139.224.82.162
 Port 516
 User bruce
+IdentitiesOnly yes
+
+# Google 虚拟机
+Host google
+HostName 34.84.8.205
+Port 2233
+User mrbruce516
+IdentitiesOnly yes
+
+# 联通堡垒机
+Host lt
+HostName 10.89.1.55
+Port 60022
+User zhengchun
+IdentitiesOnly yes
+
+# 电信堡垒机
+Host dx
+HostName 10.85.255.200
+Port 2200
+User od_paas
+IdentitiesOnly yes
+
+# 电信堡垒机(VPN)
+Host dxvpn
+HostName 192.168.223.35
+Port 2200
+User od_paas
+IdentitiesOnly yes
+
+# 电信堡垒机(唐启涵)
+Host dxtqh
+HostName 10.85.255.200
+Port 2200
+User ys_tangqh
+IdentitiesOnly yes
+
+# 电信堡垒机(noc)
+Host dxnoc
+HostName 10.85.255.200
+Port 2200
+User DSJ_FENGJ
+IdentitiesOnly yes
+
+# 移动堡垒机
+Host yd
+HostName 10.81.99.255
+Port 60022
+User zhengchun
+IdentitiesOnly yes
+
+# 移动堡垒机(VPN)
+Host ydvpn
+HostName 172.30.225.7
+Port 60022
+User zhengchun
+IdentitiesOnly yes
+
+# 移动堡垒机(大屏)
+Host yddp
+HostName 10.81.99.255
+Port 60022
+User wangyunkai
+IdentitiesOnly yes
+
+# 移动堡垒机(1+3)
+Host ydfpt
+HostName 10.81.99.255
+Port 60022
+User tangqihan
 IdentitiesOnly yes
