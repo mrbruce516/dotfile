@@ -1,6 +1,6 @@
 # dotFile
 
-个人操作环境备份
+个人操作环境(macOS)备份
 
 终端为iterm2，shell为zsh，包管理器为homebrew
 
