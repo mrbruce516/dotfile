@@ -1,11 +1,20 @@
+# vultr 虚拟机
 Host vultr
 HostName 108.61.204.126
 Port 2233
 User bruce
 IdentitiesOnly yes
 
+# 阿里云ECS
 Host aliyun
 HostName 139.224.82.162
 Port 516
 User bruce
+IdentitiesOnly yes
+
+# Google 虚拟机
+Host google
+HostName 34.84.8.205
+Port 2233
+User mrbruce516
 IdentitiesOnly yes
