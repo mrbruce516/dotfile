@@ -1,3 +1,9 @@
+# 家庭路由器
+Host router
+HostName 192.168.50.1
+User admin
+IdentitiesOnly yes
+
 # vultr 虚拟机
 Host vultr
 HostName 108.61.204.126
@@ -81,3 +87,18 @@ HostName 10.81.99.255
 Port 60022
 User tangqihan
 IdentitiesOnly yes
+
+# 公司es环境
+Host es
+HostName 192.168.250.82
+Port 22
+User root
+IdentitiesOnly yes
+
+# 公司mysql
+Host mysql54
+HostName 192.168.250.54
+Port 22
+User root
+IdentitiesOnly yes
+
