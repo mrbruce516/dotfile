@@ -9,6 +9,7 @@ set mouse=a		        " 支持使用鼠标。
 set encoding=utf-8	    " 使用 utf-8 编码
 set t_Co=256		    " 启用256色
 let &t_ut=''            " 修复vim配色问题
+set modifiable          " 使缓冲区可修改
 syntax on		        " 打开语法高亮
 filetype on
 filetype indent on	    " 开启文件类型检查，并且载入与该类型对应的缩进规则
@@ -172,6 +173,15 @@ let g:coc_global_extensions = [
     \ 'coc-json',
     \ 'coc-sh'
     \ ]
+
+" ===
+" === git插件
+" ===
+
+"减少vim检测更新延迟为100ms
+set updatetime=100
+
+
 
 " 用tab选择补全候选
 inoremap <silent><expr> <TAB>
