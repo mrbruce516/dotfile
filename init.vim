@@ -168,6 +168,7 @@ map ff :Tagbar<CR>
 " ===
 
 let g:coc_global_extensions = [
+    \ 'coc-tsserver',
     \ 'coc-marketplace',
     \ 'coc-jedi',
     \ 'coc-json',
