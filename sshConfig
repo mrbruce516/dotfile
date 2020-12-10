@@ -64,7 +64,7 @@ IdentitiesOnly yes
 Host yd
 HostName 10.81.99.255
 Port 60022
-User zhengchun
+User zhenchun
 IdentitiesOnly yes
 
 # 移动堡垒机(VPN)
