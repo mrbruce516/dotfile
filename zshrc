@@ -117,6 +117,7 @@ alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ytbdlss='youtube-dl --proxy socks5://127.0.0.1:7891'
 alias proxyon='source ~/.dotfile/clash.sh'
+alias tree='tree -N'
 alias update='source ~/.dotfile/update.sh'
 alias ytbmusic='ytbdlss -f 140'
 alias vim='nvim'
