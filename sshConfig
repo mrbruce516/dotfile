@@ -20,7 +20,7 @@ IdentitiesOnly yes
 
 # Google 虚拟机
 Host google
-HostName 34.84.8.205
+HostName 34.96.236.196
 Port 2233
 User mrbruce516
 IdentitiesOnly yes
