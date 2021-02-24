@@ -123,12 +123,13 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'joshdick/onedark.vim'
-Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'                               " ]c 下一个修改的地方 [c 上一个修改的地方
 Plug 'mhinz/vim-startify'
 Plug 'majutsushi/tagbar'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}         " ctrl-n 下一个相同的词汇创建多光标
 
 call plug#end()
 
